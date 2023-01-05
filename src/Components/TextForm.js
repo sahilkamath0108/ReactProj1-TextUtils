@@ -76,6 +76,7 @@ export default function TextForm(props) {
         <div className="mb-3">
           <textarea
             className="form-control"
+            placeholder="Type text here"
             value={text}
             onChange={handleOnChange}
             style={{backgroundColor: props.mode==='dark'?'grey':'white', color: props.mode==='dark'?'white':'black'}}
